@@ -1,6 +1,11 @@
 {
-    "name":"covid19-japan",
-    "scripts":{
-        "dev":"nuxt"
+    "name": "covid19-japan",
+    "scripts": {
+        "dev": "nuxt",
+        "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
+        "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate"
+    },
+    "dependencies": {
+        "nuxt": "^2.12.2"
     }
 }
