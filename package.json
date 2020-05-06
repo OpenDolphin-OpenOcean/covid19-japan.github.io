@@ -1,0 +1,6 @@
+{
+    "name":"covid19-japan",
+    "scripts":{
+        "dev":"nuxt"
+    }
+}
